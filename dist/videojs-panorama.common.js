@@ -1315,4 +1315,7 @@ var plugin_es6 = function (player, options) {
     return player.panorama(options);
 };
 
-module.exports = plugin_es6;
+module.exports = {
+    panorama: plugin_es6,
+    videojs: videojs,
+};
